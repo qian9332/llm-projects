@@ -1,0 +1,26 @@
+# RAG项目依赖
+
+# 核心依赖
+numpy>=1.21.0
+
+# OpenAI API
+openai>=1.0.0
+
+# 向量数据库
+chromadb>=0.4.0
+faiss-cpu>=1.7.0
+
+# 嵌入模型
+sentence-transformers>=2.2.0
+
+# 本地LLM支持
+transformers>=4.30.0
+torch>=2.0.0
+
+# NLP工具
+nltk>=3.8.0
+spacy>=3.5.0
+
+# 可选依赖
+# milvus>=2.3.0
+# pinecone-client>=2.2.0
