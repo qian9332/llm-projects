@@ -1,6 +1,6 @@
 # 🤖 llm-projects
 
-大ꨡ型(LLM)相关项目集合 - Large Language Model Projects Collection
+大模型(LLM)相关项目集合 - Large Language Model Projects Collection
 
 ## 📖 简介
 
@@ -10,14 +10,29 @@
 
 ```
 llm-projects/
-├── llm-basics/          # 大模型基础知识与入门项目
-├── prompt-engineering/  # 提示工程相关项目
-├── fine-tuning/         # 模型微调相关项目
-├── rag/                 # RAG(检索增强生成)项目
-├── agents/              # AI Agent相关项目
-├── deployment/          # 模型部署相关项目
-└── experiments/         # 实验性项目
+├── rag/                  # RAG检索增强生成系统 ✅ 已实现
+├── llm-basics/           # 大模型基础知识与入门项目
+├── prompt-engineering/   # 提示工程相关项目
+├── fine-tuning/          # 模型微调相关项目
+├── agents/               # AI Agent相关项目
+├── deployment/           # 模型部署相关项目
+└── experiments/          # 实验性项目
 ```
+
+## 🚀 已实现项目
+
+### [RAG检索增强生成系统](./rag/)
+
+完整的RAG系统实现，包含：
+
+- **文档处理**：文本分割、语义分割、问答对提取
+- **向量存储**：支持Chroma、FAISS、Milvus等多种向量数据库
+- **嵌入模型**：支持OpenA)、本地模型等多种嵌入模型
+- **检索策略**：向量检索、混合检索、重排序检索
+- **RAG引擎**：ContextChatEngine、CondensePlusContextMode、Hybrid引擎
+- **多轮对话**：支持上下文感知的多轮对话
+
+[查看详细文档](./rag/README.md)
 
 ## 🎯 项目方向
 
@@ -40,6 +55,7 @@ llm-projects/
 
 ## 📅 更新日志
 
+- 2026-03-10: 添加RAG检索增强生成系统实现
 - 2026-03-10: 创建仓库，初始化项目结构
 
 ---
